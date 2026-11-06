@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K10",
+ "docs": {
+  "gst": {
+   "gstin": "27QHJXK0658U1ZL",
+   "legal_name": "Kaveri Stays LLP",
+   "trade_name": "Kaveri Stays LLP",
+   "constitution": "Limited Liability Partnership",
+   "address": "Shop/Unit 21, Sector 14, Mumbai, Maharashtra-570043",
+   "date_of_liability": "2022-07-13",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-MH-00-7183141",
+   "enterprise_name": "Kaveri Stays LLP",
+   "major_activity": "Services",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "date_of_registration": "2024-01-09"
+  },
+  "signatory_id": {
+   "name": "Nisha Arora",
+   "designation": "Owner",
+   "business": "Kaveri Stays LLP",
+   "id_number": "SYN-ID-247542",
+   "valid_till": "2029-06-01"
+  },
+  "address_proof": {
+   "consumer_no": "6910330901",
+   "billed_to": "Kaveri Stays LLP",
+   "supply_address": "Shop/Unit 21, Sector 14, Mumbai, Maharashtra-570043",
+   "bill_date": "2026-06-18",
+   "units": "675",
+   "amount_due": "23, 713"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1196.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.987,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.997,
+    "legal_name": 1.0,
+    "trade_name": 0.982,
+    "constitution": 0.996,
+    "address": 0.984,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 957.9,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.991,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.998,
+    "enterprise_name": 0.98,
+    "major_activity": 0.999,
+    "city": 1.0,
+    "state": 1.0,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1766.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.974,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.997,
+    "designation": 0.967,
+    "business": 0.953,
+    "id_number": 0.991,
+    "valid_till": 0.998
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 969.4,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.983,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 1.0,
+    "supply_address": 0.993,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 0.998
+   }
+  }
+ }
+}

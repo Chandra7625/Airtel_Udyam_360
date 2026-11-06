@@ -1,0 +1,85 @@
+{
+ "applicant_id": "K05",
+ "docs": {
+  "gst": {
+   "gstin": "32TZAXB5481U1Z1",
+   "legal_name": "Balaji Realty LLP",
+   "trade_name": "Balaji Realty LLP",
+   "constitution": "Limited Liability Partnership",
+   "address": "Shop/Unit 38, Civil Lines, Kochi, Kerala - 752083",
+   "date_of_liability": "2020-07-26",
+   "registration_type": "Regular"
+  },
+  "signatory_id": {
+   "name": "Anita Shah",
+   "designation": "Owner",
+   "business": "Balaji Realty LLP",
+   "id_number": "SYN-ID-587234",
+   "valid_till": "2029-09-11"
+  },
+  "address_proof": {
+   "consumer_no": "4294969054",
+   "billed_to": "Balaji Realty LLP",
+   "supply_address": "Shop/Unit 38, Civil Lines, Kochi, Kerala - 752083",
+   "bill_date": "2026-06-11",
+   "units": "996",
+   "amount_due": "22, 425"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1181.4,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.985,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.996,
+    "legal_name": 0.967,
+    "trade_name": 0.997,
+    "constitution": 0.995,
+    "address": 0.986,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1768.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.99,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.997,
+    "designation": 0.967,
+    "business": 0.973,
+    "id_number": 0.991,
+    "valid_till": 0.998
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 955.1,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.983,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.995,
+    "supply_address": 0.992,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 1.0
+   }
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K07",
+ "docs": {
+  "gst": {
+   "gstin": "07CPCXN0398P1ZT",
+   "legal_name": "Neha Banerjee (Prop. Shri Physio Clinic)",
+   "trade_name": "Neelgiri Physio Clinic",
+   "constitution": "Proprietorship",
+   "address": "Shop/Unit 52, Transport Nagar, Delhi, Delhi -334596",
+   "date_of_liability": "2024-01-13",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-DL-00-9565547",
+   "enterprise_name": "Neelgiri Physio Clinic",
+   "major_activity": "Services",
+   "city": "Delhi",
+   "state": "Delhi",
+   "date_of_registration": "2024-07-14"
+  },
+  "signatory_id": {
+   "name": "Neha Banerjee",
+   "designation": "Manager",
+   "business": "Neelgiri Physio Clinic",
+   "id_number": "SYN-ID-178237",
+   "valid_till": "2030-05-05"
+  },
+  "address_proof": {
+   "consumer_no": "7545812405",
+   "billed_to": "Neelgiri Physio Clinic",
+   "supply_address": "Shop/Unit 52, Transport Nagar, Delhi, Delhi -334596",
+   "bill_date": "2026-07-05",
+   "units": "1652",
+   "amount_due": "10, 690"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1218.4,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.987,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.994,
+    "legal_name": 0.997,
+    "trade_name": 0.969,
+    "constitution": 1.0,
+    "address": 0.972,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 939.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.991,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.999,
+    "enterprise_name": 0.99,
+    "major_activity": 1.0,
+    "city": 0.995,
+    "state": 0.998,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1861.7,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.985,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.995,
+    "designation": 0.997,
+    "business": 0.956,
+    "id_number": 0.991,
+    "valid_till": 0.999
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 976.0,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.984,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.959,
+    "supply_address": 0.995,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 0.999
+   }
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K12",
+ "docs": {
+  "gst": {
+   "gstin": "37NBLXS1145E1ZU",
+   "legal_name": "Pooja Agarwal (Prop. Star Electronics)",
+   "trade_name": "Star Electronics",
+   "constitution": "Proprietorship",
+   "address": "Shop/Unit 216, Nehru Nagar, Visakhapatnam, Andhra Pradesh -762071",
+   "date_of_liability": "2017-01-08",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-AP-00-5186772",
+   "enterprise_name": "Star Electronics",
+   "major_activity": "Services",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "date_of_registration": "2024-02-03"
+  },
+  "signatory_id": {
+   "name": "Pooja Agarwal",
+   "designation": "Owner",
+   "business": "Star Electronics",
+   "id_number": "SYN-ID-365512",
+   "valid_till": "2029-03-03"
+  },
+  "address_proof": {
+   "consumer_no": "6982457282",
+   "billed_to": "Star Electronics",
+   "supply_address": "Shop/Unit 216, Nehru Nagar, Visakhapatnam, Andhra Pradesh-762071",
+   "bill_date": "2026-07-06",
+   "units": "492",
+   "amount_due": "25, 639"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1245.7,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.982,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.996,
+    "legal_name": 0.996,
+    "trade_name": 0.976,
+    "constitution": 1.0,
+    "address": 0.959,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 984.1,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.99,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.999,
+    "enterprise_name": 0.999,
+    "major_activity": 1.0,
+    "city": 0.962,
+    "state": 0.994,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1786.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.979,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.991,
+    "designation": 0.967,
+    "business": 0.994,
+    "id_number": 0.994,
+    "valid_till": 0.998
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1009.1,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.982,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 0.96,
+    "billed_to": 0.992,
+    "supply_address": 0.994,
+    "bill_date": 1.0,
+    "units": 0.997,
+    "amount_due": 0.999
+   }
+  }
+ }
+}

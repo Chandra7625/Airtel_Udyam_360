@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K03",
+ "docs": {
+  "gst": {
+   "gstin": "27XUIXG0767D1ZP",
+   "legal_name": "Joseph Singh (Prop. Ganesh Woodcraft)",
+   "trade_name": "Ganesh Woodcraft",
+   "constitution": "Proprietorship",
+   "address": "Shop/Unit 80, Civil Lines, Nagpur, Maharashtra-411231",
+   "date_of_liability": "2020-02-10",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-MH-00-9516696",
+   "enterprise_name": "Ganesh Woodcraft",
+   "major_activity": "Manufacturing",
+   "city": "Nagpur",
+   "state": "Maharashtra",
+   "date_of_registration": "2024-11-21"
+  },
+  "signatory_id": {
+   "name": "Joseph Singh",
+   "designation": "Owner",
+   "business": "Ganesh Woodcraft",
+   "id_number": "SYN-ID-447889",
+   "valid_till": "2028-07-04"
+  },
+  "address_proof": {
+   "consumer_no": "3438517928",
+   "billed_to": "Ganesh Woodcraft",
+   "supply_address": "Shop/Unit 80, Civil Lines, Nagpur, Maharashtra -411231",
+   "bill_date": "2026-05-30",
+   "units": "231",
+   "amount_due": "33, 615"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1224.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.987,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.997,
+    "legal_name": 0.991,
+    "trade_name": 0.999,
+    "constitution": 1.0,
+    "address": 0.986,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 983.1,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.992,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.999,
+    "enterprise_name": 0.989,
+    "major_activity": 0.999,
+    "city": 1.0,
+    "state": 1.0,
+    "date_of_registration": 0.998
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1794.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.977,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.994,
+    "designation": 0.967,
+    "business": 0.969,
+    "id_number": 0.991,
+    "valid_till": 0.999
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 976.0,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.981,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.998,
+    "supply_address": 0.955,
+    "bill_date": 1.0,
+    "units": 0.999,
+    "amount_due": 0.999
+   }
+  }
+ }
+}

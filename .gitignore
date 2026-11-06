@@ -1,0 +1,38 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+data/orders.db
+data/synthetic_leads.csv
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+gnn_env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

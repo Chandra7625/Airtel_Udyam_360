@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K09",
+ "docs": {
+  "gst": {
+   "gstin": "37LDYXK0296F1ZB",
+   "legal_name": "Anita Kulkarni (Prop. Kaveri Insurance Advisors)",
+   "trade_name": "Kaveri Insurance Advisors",
+   "constitution": "Proprietorship",
+   "address": "Shop/Unit 217, Civil Lines, Visakhapatnam, Andhra Pradesh-405337",
+   "date_of_liability": "2023-09-20",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-AP-00-9751562",
+   "enterprise_name": "Kaveri Insurance Advisors",
+   "major_activity": "Services",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "date_of_registration": "2023-07-04"
+  },
+  "signatory_id": {
+   "name": "Anita Kulkarni",
+   "designation": "Office admin",
+   "business": "Kaveri Insurance Advisors",
+   "id_number": "SYN-ID-126040",
+   "valid_till": "2027-12-22"
+  },
+  "address_proof": {
+   "consumer_no": "9375012581",
+   "billed_to": "Kaveri Insurance Advisors",
+   "supply_address": "Shop/Unit 217, Civil Lines, Visakhapatnam, Andhra Pradesh-405337",
+   "bill_date": "2026-07-10",
+   "units": "2026",
+   "amount_due": "28, 569"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1286.3,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.99,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.997,
+    "legal_name": 0.998,
+    "trade_name": 0.978,
+    "constitution": 1.0,
+    "address": 0.989,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1007.8,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.988,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.999,
+    "enterprise_name": 0.997,
+    "major_activity": 0.999,
+    "city": 0.962,
+    "state": 0.991,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1922.5,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.993,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.99,
+    "designation": 0.999,
+    "business": 0.994,
+    "id_number": 0.993,
+    "valid_till": 0.999
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1025.1,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.983,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.972,
+    "supply_address": 0.971,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 0.999
+   }
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K01",
+ "docs": {
+  "gst": {
+   "gstin": "37IHKXV5167L1ZS",
+   "legal_name": "Neha Kaur (Prop. Vindhya Tours & Travels)",
+   "trade_name": "Vindhya Tours & Travels",
+   "constitution": "Proprietorship",
+   "address": "Shop/Unit 1, Tech Park Road, Visakhapatnam, Andhra Pradesh-118383",
+   "date_of_liability": "2025-06-07",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "",
+   "enterprise_name": "Vindhya Tours & Travels",
+   "major_activity": "Services",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "date_of_registration": "2024-03-24"
+  },
+  "signatory_id": {
+   "name": "Neha Kaur",
+   "designation": "Officeadmin",
+   "business": "Vindhya Tours & Travels",
+   "id_number": "SYN-ID-346190",
+   "valid_till": "2028-03-26"
+  },
+  "address_proof": {
+   "consumer_no": "9485717625",
+   "billed_to": "Vindhya Tours & Travels",
+   "supply_address": "Shop/Unit 1, Tech Park Road, Visakhapatnam, Andhra Pradesh-118383",
+   "bill_date": "2026-06-26",
+   "units": "2203",
+   "amount_due": "27, 071"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1270.8,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.989,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.996,
+    "legal_name": 0.997,
+    "trade_name": 0.997,
+    "constitution": 1.0,
+    "address": 0.977,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 945.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.987,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.0,
+    "enterprise_name": 0.961,
+    "major_activity": 1.0,
+    "city": 1.0,
+    "state": 0.967,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1861.7,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.99,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.992,
+    "designation": 0.967,
+    "business": 0.995,
+    "id_number": 0.995,
+    "valid_till": 0.998
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1026.1,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.984,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.97,
+    "supply_address": 0.989,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 0.998
+   }
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "applicant_id": "K04",
+ "docs": {
+  "gst": {},
+  "udyam": {
+   "udyam_number": "UDYAM-MH-00-6131836",
+   "enterprise_name": "Saffron Dental Care LLP",
+   "major_activity": "Services",
+   "city": "Nagpur",
+   "state": "Maharashtra",
+   "date_of_registration": "2025-05-17"
+  },
+  "signatory_id": {
+   "name": "Fatima Pillai",
+   "designation": "Partner",
+   "business": "Saffron Dental Care LLP",
+   "id_number": "SYN-ID-609396",
+   "valid_till": "2028-08-03"
+  },
+  "address_proof": {
+   "consumer_no": "7397844759",
+   "billed_to": "Saffron Dental Care LLP",
+   "supply_address": "Shop/Unit 75, Lake View Colony, Nagpur, Maharashtra -137452",
+   "bill_date": "2026-05-28",
+   "units": "2295",
+   "amount_due": "20, 713"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1.0,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.834,
+    "blurry": true
+   },
+   "warnings": [
+    "Scan looks blurry or low-confidence - please check every field before continuing."
+   ],
+   "confidence": {}
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 974.8,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.993,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.999,
+    "enterprise_name": 0.998,
+    "major_activity": 0.999,
+    "city": 1.0,
+    "state": 1.0,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1834.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.978,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.996,
+    "designation": 0.999,
+    "business": 0.962,
+    "id_number": 0.992,
+    "valid_till": 0.999
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1007.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.983,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.996,
+    "supply_address": 0.973,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 0.999
+   }
+  }
+ }
+}

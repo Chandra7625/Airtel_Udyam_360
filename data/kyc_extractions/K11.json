@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K11",
+ "docs": {
+  "gst": {
+   "gstin": "03KGZXT1320R1ZZ",
+   "legal_name": "Trinity Bake House Pvt Ltd",
+   "trade_name": "Trinity Bake House Pvt Ltd",
+   "constitution": "Private Limited Company",
+   "address": "Shop/Unit 188, Industrial Area Phase 2, Ludhiana, Punjab -541498",
+   "date_of_liability": "2019-08-19",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-PB-00-9719478",
+   "enterprise_name": "Trinity Bake House Pvt Ltd",
+   "major_activity": "Services",
+   "city": "Ludhiana",
+   "state": "Punjab",
+   "date_of_registration": "2025-09-15"
+  },
+  "signatory_id": {
+   "name": "Vikram Pillai",
+   "designation": "Owner",
+   "business": "Trinity Bake House Pvt Ltd",
+   "id_number": "SYN-ID-440312",
+   "valid_till": "2028-12-23"
+  },
+  "address_proof": {
+   "consumer_no": "2710511786",
+   "billed_to": "Trinity Bake House Pvt Ltd",
+   "supply_address": "Shop/Unit 188, Industrial Area Phase 2, Ludhiana, Punjab-541498",
+   "bill_date": "2025-10-31",
+   "units": "981",
+   "amount_due": "2, 768"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1261.9,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.989,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.996,
+    "legal_name": 0.969,
+    "trade_name": 0.976,
+    "constitution": 0.989,
+    "address": 0.987,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 969.3,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.99,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.999,
+    "enterprise_name": 0.976,
+    "major_activity": 0.999,
+    "city": 1.0,
+    "state": 0.999,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1858.2,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.99,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.987,
+    "designation": 0.967,
+    "business": 0.982,
+    "id_number": 0.995,
+    "valid_till": 0.998
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1014.0,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.984,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.981,
+    "supply_address": 0.979,
+    "bill_date": 1.0,
+    "units": 0.999,
+    "amount_due": 0.999
+   }
+  }
+ }
+}

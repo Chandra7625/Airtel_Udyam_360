@@ -1,0 +1,111 @@
+{
+ "applicant_id": "K06",
+ "docs": {
+  "gst": {
+   "gstin": "08YKZXS8189L1Z0",
+   "legal_name": "Pooja Shah (Prop. Saffron Unisex Salon)",
+   "trade_name": "Saffron Unisex Salon",
+   "constitution": "Proprietorship",
+   "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan-194057",
+   "date_of_liability": "2019-09-25",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-RJ-00-6577157",
+   "enterprise_name": "Saffron Unisex Salon",
+   "major_activity": "Services",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "date_of_registration": "2023-01-24"
+  },
+  "signatory_id": {
+   "name": "Pooja Shah",
+   "designation": "Owner",
+   "business": "Saffron Unisex Salon",
+   "id_number": "SYN-ID-118354",
+   "valid_till": "2028-09-15"
+  },
+  "address_proof": {
+   "consumer_no": "9566781101",
+   "billed_to": "Saffron Unisex Salon",
+   "supply_address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan-194057",
+   "bill_date": "2026-06-11",
+   "units": "1280",
+   "amount_due": "27, 352"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1224.9,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.988,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "gstin": 0.966,
+    "legal_name": 0.996,
+    "trade_name": 0.999,
+    "constitution": 1.0,
+    "address": 0.99,
+    "date_of_liability": 1.0,
+    "registration_type": 1.0
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 954.0,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.992,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.999,
+    "enterprise_name": 0.998,
+    "major_activity": 0.999,
+    "city": 0.983,
+    "state": 1.0,
+    "date_of_registration": 1.0
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1797.2,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.991,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.999,
+    "designation": 0.967,
+    "business": 0.998,
+    "id_number": 0.995,
+    "valid_till": 0.999
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 978.6,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.985,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.994,
+    "supply_address": 0.996,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 0.997
+   }
+  }
+ }
+}

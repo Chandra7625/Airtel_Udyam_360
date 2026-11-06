@@ -1,0 +1,113 @@
+{
+ "applicant_id": "K02",
+ "docs": {
+  "gst": {
+   "gstin": "19EOGXH4115Y1ZL",
+   "legal_name": "Joseph Shah (Prop. Harmony Dental Care)",
+   "trade_name": "Harmony Dental Care",
+   "constitution": "Proprietorship",
+   "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+   "date_of_liability": "2022-04-17",
+   "registration_type": "Regular"
+  },
+  "udyam": {
+   "udyam_number": "UDYAM-WB-00-5053330",
+   "enterprise_name": "Harmony Dental Care",
+   "major_activity": "Services",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "date_of_registration": "2023-01-11"
+  },
+  "signatory_id": {
+   "name": "Joseph Shah",
+   "designation": "Manager",
+   "business": "Harmony Dental Care",
+   "id_number": "SYN-ID-816907",
+   "valid_till": "2028-09-10"
+  },
+  "address_proof": {
+   "consumer_no": "9790713533",
+   "billed_to": "Harmony Dental Care",
+   "supply_address": "Shop/Unit 199, Station Road, Kolkata, West Bengal-347550",
+   "bill_date": "2026-05-22",
+   "units": "992",
+   "amount_due": "7, 077"
+  }
+ },
+ "meta": {
+  "gst": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1258.8,
+    "deskew_deg": 7.0,
+    "mean_conf": 0.982,
+    "blurry": false
+   },
+   "warnings": [
+    "Look-alike characters in the GSTIN (O/0, I/1) were normalised by position: 19E0GXH4115Y1ZL -> 19EOGXH4115Y1ZL. Please confirm."
+   ],
+   "confidence": {
+    "gstin": 0.993,
+    "legal_name": 0.975,
+    "trade_name": 0.953,
+    "constitution": 1.0,
+    "address": 0.976,
+    "date_of_liability": 1.0,
+    "registration_type": 0.998
+   }
+  },
+  "udyam": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 973.0,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.992,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "udyam_number": 0.998,
+    "enterprise_name": 0.984,
+    "major_activity": 0.999,
+    "city": 0.999,
+    "state": 0.998,
+    "date_of_registration": 0.999
+   }
+  },
+  "signatory_id": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 1822.5,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.992,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "name": 0.994,
+    "designation": 0.997,
+    "business": 0.971,
+    "id_number": 0.989,
+    "valid_till": 0.999
+   }
+  },
+  "address_proof": {
+   "engine": "local",
+   "quality": {
+    "sharpness": 990.8,
+    "deskew_deg": 0.0,
+    "mean_conf": 0.982,
+    "blurry": false
+   },
+   "warnings": [],
+   "confidence": {
+    "consumer_no": 1.0,
+    "billed_to": 0.98,
+    "supply_address": 0.97,
+    "bill_date": 1.0,
+    "units": 1.0,
+    "amount_due": 0.997
+   }
+  }
+ }
+}
