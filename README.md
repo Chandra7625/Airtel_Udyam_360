@@ -151,7 +151,7 @@ The application will open in your browser.
 
 ## Team
 
-**Udyam360 – YTL Hackathon 2026**
+**Udyam360 – Airtel SYNC**
 
 - Chandratapa Dewan
 - Anika Singhal
