@@ -1,7 +1,5 @@
 # Udyam360 – AI-Powered Business Enablement Platform
 
-**YTL Hackathon 2026**
-
 Udyam360 is an AI-powered platform designed to support small businesses and entrepreneurs by simplifying business onboarding, improving access to relevant services, and providing data-driven business insights.
 
 Our goal is to bring essential business services together in one platform, making it easier for businesses to manage their operations and discover growth opportunities.
